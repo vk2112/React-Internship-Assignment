@@ -104,7 +104,7 @@ const ArtworkTable: React.FC = () => {
         }
         `}
       </style>
-      
+
       <DataTable
         value={artworks}
         paginator
@@ -134,6 +134,7 @@ const ArtworkTable: React.FC = () => {
         />
         <Column field="place_of_origin" header="Place of Origin" />
         <Column field="artist_display" header="Artist" />
+        <Column field="inscriptions" header="Inscriptions" />
         <Column field="date_start" header="Start Date" />
         <Column field="date_end" header="End Date" />
       </DataTable>
