@@ -104,6 +104,7 @@ const ArtworkTable: React.FC = () => {
         }
         `}
       </style>
+      
       <DataTable
         value={artworks}
         paginator
@@ -144,7 +145,7 @@ const ArtworkTable: React.FC = () => {
             onValueChange={(e) => setRowCount(e.value as number)}
             placeholder="Select rows..."
           />
-          <Button label="Submit" onClick={selectRows} style={{marginTop: '10px', marginLeft: '80px', background: '#fff', color: 'black', border: '1px solid grey'}} />
+          <Button label="Submit" onClick={selectRows} style={{marginTop: '10px', marginLeft: '83px', background: '#fff', color: 'grey', border: '1px solid #dad7d7'}} />
         </div>
       </OverlayPanel>
     </div>
